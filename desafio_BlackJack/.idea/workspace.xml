@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5cd0b8e2-1f91-4745-abe9-ceff49700e1c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1VO6PLejkcKphBIg4byYbNRD8aT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../exerccicio_frutas" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\dauana.severo\PycharmProjects\Dauana\app" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.main">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Dauana" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Dauana" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/start.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.start" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5cd0b8e2-1f91-4745-abe9-ceff49700e1c" name="Default Changelist" comment="" />
+      <created>1577111768301</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1577111768301</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="281" y="168" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1577376006732">
+      <screen x="0" y="0" width="1024" height="728" />
+    </state>
+    <state x="281" y="168" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1024.728/-1440.0.1440.860@0.0.1024.728" timestamp="1577376006732" />
+    <state x="-1100" y="132" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1577386709893">
+      <screen x="-1440" y="0" width="1440" height="860" />
+    </state>
+    <state x="-1100" y="132" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1024.728/-1440.0.1440.860@-1440.0.1440.860" timestamp="1577386709893" />
+    <state x="242" y="112" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1024.728/-1440.0.1440.860@0.0.1024.728" timestamp="1577359374251" />
+    <state x="-940" y="186" key="FileChooserDialogImpl" timestamp="1577444858580">
+      <screen x="-1440" y="0" width="1440" height="860" />
+    </state>
+    <state x="-940" y="186" key="FileChooserDialogImpl/0.0.1024.728/-1440.0.1440.860@-1440.0.1440.860" timestamp="1577444858580" />
+    <state width="1419" height="176" key="GridCell.Tab.0.bottom" timestamp="1577444859619">
+      <screen x="-1440" y="0" width="1440" height="860" />
+    </state>
+    <state width="1419" height="176" key="GridCell.Tab.0.bottom/0.0.1024.728/-1440.0.1440.860@-1440.0.1440.860" timestamp="1577444859619" />
+    <state width="1003" height="179" key="GridCell.Tab.0.bottom/0.0.1024.728/-1440.0.1440.860@0.0.1024.728" timestamp="1577365964371" />
+    <state width="1419" height="176" key="GridCell.Tab.0.center" timestamp="1577444859619">
+      <screen x="-1440" y="0" width="1440" height="860" />
+    </state>
+    <state width="1419" height="176" key="GridCell.Tab.0.center/0.0.1024.728/-1440.0.1440.860@-1440.0.1440.860" timestamp="1577444859619" />
+    <state width="1003" height="179" key="GridCell.Tab.0.center/0.0.1024.728/-1440.0.1440.860@0.0.1024.728" timestamp="1577365964371" />
+    <state width="1419" height="176" key="GridCell.Tab.0.left" timestamp="1577444859618">
+      <screen x="-1440" y="0" width="1440" height="860" />
+    </state>
+    <state width="1419" height="176" key="GridCell.Tab.0.left/0.0.1024.728/-1440.0.1440.860@-1440.0.1440.860" timestamp="1577444859618" />
+    <state width="1003" height="179" key="GridCell.Tab.0.left/0.0.1024.728/-1440.0.1440.860@0.0.1024.728" timestamp="1577365964371" />
+    <state width="1419" height="176" key="GridCell.Tab.0.right" timestamp="1577444859619">
+      <screen x="-1440" y="0" width="1440" height="860" />
+    </state>
+    <state width="1419" height="176" key="GridCell.Tab.0.right/0.0.1024.728/-1440.0.1440.860@-1440.0.1440.860" timestamp="1577444859619" />
+    <state width="1003" height="179" key="GridCell.Tab.0.right/0.0.1024.728/-1440.0.1440.860@0.0.1024.728" timestamp="1577365964371" />
+    <state x="213" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1577111796900">
+      <screen x="0" y="0" width="1024" height="728" />
+    </state>
+    <state x="213" y="189" key="com.intellij.ide.util.TipDialog/0.0.1024.728/-1440.0.1440.860@0.0.1024.728" timestamp="1577111796900" />
+    <state x="175" y="49" key="search.everywhere.popup" timestamp="1577359324354">
+      <screen x="0" y="0" width="1024" height="728" />
+    </state>
+    <state x="175" y="49" key="search.everywhere.popup/0.0.1024.728/-1440.0.1440.860@0.0.1024.728" timestamp="1577359324354" />
+  </component>
+</project>

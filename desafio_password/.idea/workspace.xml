@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a9315598-ec19-46a4-b006-6826f1410df8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/exexplo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/aditivos.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/aditivos.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/deducao.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/deducao.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="password" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1VhUXls8JarfBpjru2ttU6f2F64" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="terminal" />
+  </component>
+  <component name="RunManager" selected="Python.aditivos">
+    <configuration name="aditivos" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="desafio_password" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/aditivos.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="deducao" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="desafio_password" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/deducao.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="exexplo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="desafio_password" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exexplo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="desafio_password" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="requisitos" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="desafio_password" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/requisitos.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.aditivos" />
+        <item itemvalue="Python.deducao" />
+        <item itemvalue="Python.exexplo" />
+        <item itemvalue="Python.requisitos" />
+        <item itemvalue="Python.main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a9315598-ec19-46a4-b006-6826f1410df8" name="Default Changelist" comment="" />
+      <created>1577704861374</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1577704861374</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="175" y="0" key="#Inspections" timestamp="1577901821801">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="175" y="0" key="#Inspections/0.0.1366.728@0.0.1366.728" timestamp="1577901821801" />
+    <state x="-940" y="177" key="FileChooserDialogImpl" timestamp="1577974877893">
+      <screen x="-1440" y="0" width="1440" height="860" />
+    </state>
+    <state x="-940" y="177" key="FileChooserDialogImpl/0.0.1024.728/-1440.0.1440.860@-1440.0.1440.860" timestamp="1577974877893" />
+    <state width="1419" height="222" key="GridCell.Tab.0.bottom" timestamp="1577997904133">
+      <screen x="-1440" y="0" width="1440" height="860" />
+    </state>
+    <state width="1419" height="222" key="GridCell.Tab.0.bottom/0.0.1024.728/-1440.0.1440.860@-1440.0.1440.860" timestamp="1577997904133" />
+    <state width="1339" height="165" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1577932449299" />
+    <state width="1419" height="222" key="GridCell.Tab.0.center" timestamp="1577997904132">
+      <screen x="-1440" y="0" width="1440" height="860" />
+    </state>
+    <state width="1419" height="222" key="GridCell.Tab.0.center/0.0.1024.728/-1440.0.1440.860@-1440.0.1440.860" timestamp="1577997904132" />
+    <state width="1339" height="165" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1577932449299" />
+    <state width="1419" height="222" key="GridCell.Tab.0.left" timestamp="1577997904132">
+      <screen x="-1440" y="0" width="1440" height="860" />
+    </state>
+    <state width="1419" height="222" key="GridCell.Tab.0.left/0.0.1024.728/-1440.0.1440.860@-1440.0.1440.860" timestamp="1577997904132" />
+    <state width="1339" height="165" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1577932449299" />
+    <state width="1419" height="222" key="GridCell.Tab.0.right" timestamp="1577997904132">
+      <screen x="-1440" y="0" width="1440" height="860" />
+    </state>
+    <state width="1419" height="222" key="GridCell.Tab.0.right/0.0.1024.728/-1440.0.1440.860@-1440.0.1440.860" timestamp="1577997904132" />
+    <state width="1339" height="165" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1577932449299" />
+    <state width="1419" height="276" key="GridCell.Tab.1.bottom" timestamp="1577997448531">
+      <screen x="-1440" y="0" width="1440" height="860" />
+    </state>
+    <state width="1419" height="276" key="GridCell.Tab.1.bottom/0.0.1024.728/-1440.0.1440.860@-1440.0.1440.860" timestamp="1577997448531" />
+    <state width="1419" height="276" key="GridCell.Tab.1.center" timestamp="1577997448531">
+      <screen x="-1440" y="0" width="1440" height="860" />
+    </state>
+    <state width="1419" height="276" key="GridCell.Tab.1.center/0.0.1024.728/-1440.0.1440.860@-1440.0.1440.860" timestamp="1577997448531" />
+    <state width="1419" height="276" key="GridCell.Tab.1.left" timestamp="1577997448531">
+      <screen x="-1440" y="0" width="1440" height="860" />
+    </state>
+    <state width="1419" height="276" key="GridCell.Tab.1.left/0.0.1024.728/-1440.0.1440.860@-1440.0.1440.860" timestamp="1577997448531" />
+    <state width="1419" height="276" key="GridCell.Tab.1.right" timestamp="1577997448531">
+      <screen x="-1440" y="0" width="1440" height="860" />
+    </state>
+    <state width="1419" height="276" key="GridCell.Tab.1.right/0.0.1024.728/-1440.0.1440.860@-1440.0.1440.860" timestamp="1577997448531" />
+    <state x="-1219" y="73" key="SettingsEditor" timestamp="1577974887506">
+      <screen x="-1440" y="0" width="1440" height="860" />
+    </state>
+    <state x="-1219" y="73" key="SettingsEditor/0.0.1024.728/-1440.0.1440.860@-1440.0.1440.860" timestamp="1577974887506" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1577986974737">
+      <screen x="-1440" y="0" width="1440" height="860" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1024.728/-1440.0.1440.860@-1440.0.1440.860" timestamp="1577986974737" />
+    <state x="311" y="147" key="com.intellij.ide.util.TipDialog" timestamp="1577901119710">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="311" y="147" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1577901119710" />
+    <state x="92" y="92" width="1182" height="544" key="dock-window-1" timestamp="1577920388151">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="92" y="92" width="1182" height="544" key="dock-window-1/0.0.1366.728@0.0.1366.728" timestamp="1577920388151" />
+    <state x="-1057" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1577967797538">
+      <screen x="-1440" y="0" width="1440" height="860" />
+    </state>
+    <state x="-1057" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1024.728/-1440.0.1440.860@-1440.0.1440.860" timestamp="1577967797538" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

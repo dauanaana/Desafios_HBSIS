@@ -18,7 +18,10 @@ class Deducoes(Requerimentos):
         letras_seq = self.somente_letras_sequenciais()
         numeros_seq = self.somente_numeros_sequenciais()
         simbolos_seq = self.somente_simbolos_sequenciais()
+<<<<<<< HEAD
         print(f"{'DEDUÇÕES ':^28}")
+=======
+>>>>>>> 256db4358ed10c0dc5f12144ffa13427cbb06d8b
         print(f"{'Somente letras:':<28} {letras['count']} | {letras['value']}")
         print(f"{'Somente números:':<28} {numeros['count']} | {numeros['value']}")
         print(f"{'Maiúsculas consecutivas:':<28} {maiusculas_cons['count']} | {maiusculas_cons['value']}")
@@ -61,12 +64,19 @@ class Deducoes(Requerimentos):
         simbolos_seq = self.somente_simbolos_sequenciais()
         self.pontos -= simbolos_seq['value']
 
+<<<<<<< HEAD
         return abs(self.pontos)
 
     def somente_letras(self):
         lista_somente_letras = {}
         letras = len(re.findall('[a-zA-Z]', self.password.password))
         if letras == len(self.password.password):
+=======
+    def somente_letras(self):
+        lista_somente_letras = {}
+        letras = len(re.findall('[a-zA-Z]', self.password.password()))
+        if letras == len(self.password.password()):
+>>>>>>> 256db4358ed10c0dc5f12144ffa13427cbb06d8b
             lista_somente_letras['count'] = letras
             lista_somente_letras['value'] = letras
             return lista_somente_letras
@@ -79,12 +89,21 @@ class Deducoes(Requerimentos):
         lista_somente_numeros = {}
         numeros = re.findall('[0-9]', self.password.password)
         if len(numeros) == len(self.password.password):
+<<<<<<< HEAD
             lista_somente_numeros['count'] = len(numeros)
             lista_somente_numeros['value'] = len(numeros)
             return lista_somente_numeros
         else:
             lista_somente_numeros['count'] = 0
             lista_somente_numeros['value'] = 0
+=======
+            lista_somente_numeros['count'] = numeros
+            lista_somente_numeros['value'] = numeros
+        else:
+            lista_somente_numeros['count'] = 0
+            lista_somente_numeros['value'] = 0
+
+>>>>>>> 256db4358ed10c0dc5f12144ffa13427cbb06d8b
             return lista_somente_numeros
 
     def letras_maiusculas_consecutivas(self):
@@ -213,9 +232,20 @@ class Deducoes(Requerimentos):
             lista_sequencial['value'] = 0
             return lista_sequencial
 
+<<<<<<< HEAD
 
 # password = Password('rsrs')
 # deducao = Deducoes(password)
 # deducao.validar()
 # print(deducao.pontos)
 #
+=======
+pas = Password('B#1l82@lp745')
+deducoes = Deducoes(pas)
+print(deducoes.somente_numeros)
+# deducoes.mostrar_deducoes()
+# print(deducoes.pontos)
+
+
+
+>>>>>>> 256db4358ed10c0dc5f12144ffa13427cbb06d8b

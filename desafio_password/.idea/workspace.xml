@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="a9315598-ec19-46a4-b006-6826f1410df8" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/tests/__init__.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/tests/unit/__init__.py" afterDir="false" />
@@ -16,6 +17,9 @@
       <change beforePath="$PROJECT_DIR$/app/requerimentos/deducao.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/requerimentos/deducao.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/requerimentos/requerimentos.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/requerimentos/requerimentos.py" afterDir="false" />
     </list>
+=======
+    <list default="true" id="a9315598-ec19-46a4-b006-6826f1410df8" name="Default Changelist" comment="" />
+>>>>>>> 256db4358ed10c0dc5f12144ffa13427cbb06d8b
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,7 +37,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1VhUXls8JarfBpjru2ttU6f2F64" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -55,8 +59,13 @@
       <recent name="C:\Users\RegianeCristiellyPer\Desktop\Desafios_HBSIS\desafio_password\app\requerimentos" />
     </key>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="Python tests.Unittests for test_deducao.TestDeducoes.test_verificar_se_tiver_letras_sequenciais">
     <configuration name="Unittests for test_deducao.TestDeducoes.test_verificar_se_nao_tiver_maiusculas_consecutivas" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+=======
+  <component name="RunManager" selected="Python.deducao">
+    <configuration name="aditivos" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+>>>>>>> 256db4358ed10c0dc5f12144ffa13427cbb06d8b
       <module name="desafio_password" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -65,9 +74,19 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+<<<<<<< HEAD
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_deducao.TestDeducoes.test_verificar_se_nao_tiver_maiusculas_consecutivas&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+=======
+      <option name="SCRIPT_NAME" value="C:\Users\RegianeCristiellyPer\Desktop\Desafios_HBSIS\desafio_password\app\requerimentos\aditivos.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+>>>>>>> 256db4358ed10c0dc5f12144ffa13427cbb06d8b
       <method v="2" />
     </configuration>
     <configuration name="Unittests for test_deducao.TestDeducoes.test_verificar_se_nao_tiver_minusculas_consecutivas" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
@@ -79,9 +98,19 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+<<<<<<< HEAD
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_deducao.TestDeducoes.test_verificar_se_nao_tiver_minusculas_consecutivas&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+=======
+      <option name="SCRIPT_NAME" value="C:\Users\RegianeCristiellyPer\Desktop\Desafios_HBSIS\desafio_password\app\requerimentos\deducao.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+>>>>>>> 256db4358ed10c0dc5f12144ffa13427cbb06d8b
       <method v="2" />
     </configuration>
     <configuration name="Unittests for test_deducao.TestDeducoes.test_verificar_se_tiver_letras_sequenciais" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
@@ -112,7 +141,11 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+<<<<<<< HEAD
     <configuration name="Unittests for test_deducao.TestDeducoes.test_verificar_se_tiver_numeros_consecutivos" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+=======
+    <configuration name="requerimentos" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+>>>>>>> 256db4358ed10c0dc5f12144ffa13427cbb06d8b
       <module name="desafio_password" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -121,18 +154,36 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+<<<<<<< HEAD
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_deducao.TestDeducoes.test_verificar_se_tiver_numeros_consecutivos&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+=======
+      <option name="SCRIPT_NAME" value="C:\Users\RegianeCristiellyPer\Desktop\Desafios_HBSIS\desafio_password\app\requerimentos\requerimentos.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+>>>>>>> 256db4358ed10c0dc5f12144ffa13427cbb06d8b
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+<<<<<<< HEAD
         <item itemvalue="Python tests.Unittests for test_deducao.TestDeducoes.test_verificar_se_tiver_letras_sequenciais" />
         <item itemvalue="Python tests.Unittests for test_deducao.TestDeducoes.test_verificar_se_nao_tiver_minusculas_consecutivas" />
         <item itemvalue="Python tests.Unittests for test_deducao.TestDeducoes.test_verificar_se_tiver_minusculas_consecutivas" />
         <item itemvalue="Python tests.Unittests for test_deducao.TestDeducoes.test_verificar_se_tiver_numeros_consecutivos" />
         <item itemvalue="Python tests.Unittests for test_deducao.TestDeducoes.test_verificar_se_nao_tiver_maiusculas_consecutivas" />
+=======
+        <item itemvalue="Python.deducao" />
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.aditivos" />
+        <item itemvalue="Python.requerimentos" />
+        <item itemvalue="Python.exexplo" />
+>>>>>>> 256db4358ed10c0dc5f12144ffa13427cbb06d8b
       </list>
     </recent_temporary>
   </component>
@@ -174,6 +225,7 @@
       <screen x="-1440" y="0" width="1440" height="860" />
     </state>
     <state x="-940" y="177" key="FileChooserDialogImpl/0.0.1024.728/-1440.0.1440.860@-1440.0.1440.860" timestamp="1577974877893" />
+<<<<<<< HEAD
     <state width="1419" height="321" key="GridCell.Tab.0.bottom" timestamp="1578081834208">
       <screen x="-1440" y="0" width="1440" height="860" />
     </state>
@@ -195,6 +247,29 @@
     <state width="1419" height="321" key="GridCell.Tab.0.right/0.0.1024.728/-1440.0.1440.860@-1440.0.1440.860" timestamp="1578081834207" />
     <state width="1339" height="165" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1578025563010" />
     <state width="1419" height="276" key="GridCell.Tab.1.bottom" timestamp="1578056994628">
+=======
+    <state width="1339" height="165" key="GridCell.Tab.0.bottom" timestamp="1578024977136">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1419" height="222" key="GridCell.Tab.0.bottom/0.0.1024.728/-1440.0.1440.860@-1440.0.1440.860" timestamp="1577997904133" />
+    <state width="1339" height="165" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1578024977136" />
+    <state width="1339" height="165" key="GridCell.Tab.0.center" timestamp="1578024977135">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1419" height="222" key="GridCell.Tab.0.center/0.0.1024.728/-1440.0.1440.860@-1440.0.1440.860" timestamp="1577997904132" />
+    <state width="1339" height="165" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1578024977135" />
+    <state width="1339" height="165" key="GridCell.Tab.0.left" timestamp="1578024977135">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1419" height="222" key="GridCell.Tab.0.left/0.0.1024.728/-1440.0.1440.860@-1440.0.1440.860" timestamp="1577997904132" />
+    <state width="1339" height="165" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1578024977135" />
+    <state width="1339" height="165" key="GridCell.Tab.0.right" timestamp="1578024977136">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1419" height="222" key="GridCell.Tab.0.right/0.0.1024.728/-1440.0.1440.860@-1440.0.1440.860" timestamp="1577997904132" />
+    <state width="1339" height="165" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1578024977136" />
+    <state width="1419" height="276" key="GridCell.Tab.1.bottom" timestamp="1577997448531">
+>>>>>>> 256db4358ed10c0dc5f12144ffa13427cbb06d8b
       <screen x="-1440" y="0" width="1440" height="860" />
     </state>
     <state width="1419" height="276" key="GridCell.Tab.1.bottom/0.0.1024.728/-1440.0.1440.860@-1440.0.1440.860" timestamp="1578056994628" />
@@ -218,10 +293,17 @@
       <screen x="-1440" y="0" width="1440" height="860" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1024.728/-1440.0.1440.860@-1440.0.1440.860" timestamp="1577986974737" />
+<<<<<<< HEAD
     <state x="311" y="147" key="com.intellij.ide.util.TipDialog" timestamp="1578025622239">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="311" y="147" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1578025622239" />
+=======
+    <state x="311" y="147" key="com.intellij.ide.util.TipDialog" timestamp="1578004147727">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="311" y="147" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1578004147727" />
+>>>>>>> 256db4358ed10c0dc5f12144ffa13427cbb06d8b
     <state x="92" y="92" width="1182" height="544" key="dock-window-1" timestamp="1577920388151">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

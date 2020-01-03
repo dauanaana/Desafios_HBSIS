@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a9315598-ec19-46a4-b006-6826f1410df8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/exexplo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/aditivos.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/aditivos.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/deducao.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/deducao.py" afterDir="false" />
-    </list>
+    <list default="true" id="a9315598-ec19-46a4-b006-6826f1410df8" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,10 +18,10 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1VhUXls8JarfBpjru2ttU6f2F64" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -39,7 +34,13 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="terminal" />
   </component>
-  <component name="RunManager" selected="Python.aditivos">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\RegianeCristiellyPer\Desktop\Desafios_HBSIS\desafio_password\app\password" />
+      <recent name="C:\Users\RegianeCristiellyPer\Desktop\Desafios_HBSIS\desafio_password\app\requerimentos" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.deducao">
     <configuration name="aditivos" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="desafio_password" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -52,7 +53,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/aditivos.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\RegianeCristiellyPer\Desktop\Desafios_HBSIS\desafio_password\app\requerimentos\aditivos.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -73,7 +74,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/deducao.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\RegianeCristiellyPer\Desktop\Desafios_HBSIS\desafio_password\app\requerimentos\deducao.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -124,7 +125,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="requisitos" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="requerimentos" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="desafio_password" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -136,7 +137,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/requisitos.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\RegianeCristiellyPer\Desktop\Desafios_HBSIS\desafio_password\app\requerimentos\requerimentos.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -147,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.aditivos" />
         <item itemvalue="Python.deducao" />
-        <item itemvalue="Python.exexplo" />
-        <item itemvalue="Python.requisitos" />
         <item itemvalue="Python.main" />
+        <item itemvalue="Python.aditivos" />
+        <item itemvalue="Python.requerimentos" />
+        <item itemvalue="Python.exexplo" />
       </list>
     </recent_temporary>
   </component>
@@ -189,26 +190,26 @@
       <screen x="-1440" y="0" width="1440" height="860" />
     </state>
     <state x="-940" y="177" key="FileChooserDialogImpl/0.0.1024.728/-1440.0.1440.860@-1440.0.1440.860" timestamp="1577974877893" />
-    <state width="1419" height="222" key="GridCell.Tab.0.bottom" timestamp="1577997904133">
-      <screen x="-1440" y="0" width="1440" height="860" />
+    <state width="1339" height="165" key="GridCell.Tab.0.bottom" timestamp="1578024977136">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1419" height="222" key="GridCell.Tab.0.bottom/0.0.1024.728/-1440.0.1440.860@-1440.0.1440.860" timestamp="1577997904133" />
-    <state width="1339" height="165" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1577932449299" />
-    <state width="1419" height="222" key="GridCell.Tab.0.center" timestamp="1577997904132">
-      <screen x="-1440" y="0" width="1440" height="860" />
+    <state width="1339" height="165" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1578024977136" />
+    <state width="1339" height="165" key="GridCell.Tab.0.center" timestamp="1578024977135">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1419" height="222" key="GridCell.Tab.0.center/0.0.1024.728/-1440.0.1440.860@-1440.0.1440.860" timestamp="1577997904132" />
-    <state width="1339" height="165" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1577932449299" />
-    <state width="1419" height="222" key="GridCell.Tab.0.left" timestamp="1577997904132">
-      <screen x="-1440" y="0" width="1440" height="860" />
+    <state width="1339" height="165" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1578024977135" />
+    <state width="1339" height="165" key="GridCell.Tab.0.left" timestamp="1578024977135">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1419" height="222" key="GridCell.Tab.0.left/0.0.1024.728/-1440.0.1440.860@-1440.0.1440.860" timestamp="1577997904132" />
-    <state width="1339" height="165" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1577932449299" />
-    <state width="1419" height="222" key="GridCell.Tab.0.right" timestamp="1577997904132">
-      <screen x="-1440" y="0" width="1440" height="860" />
+    <state width="1339" height="165" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1578024977135" />
+    <state width="1339" height="165" key="GridCell.Tab.0.right" timestamp="1578024977136">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1419" height="222" key="GridCell.Tab.0.right/0.0.1024.728/-1440.0.1440.860@-1440.0.1440.860" timestamp="1577997904132" />
-    <state width="1339" height="165" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1577932449299" />
+    <state width="1339" height="165" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1578024977136" />
     <state width="1419" height="276" key="GridCell.Tab.1.bottom" timestamp="1577997448531">
       <screen x="-1440" y="0" width="1440" height="860" />
     </state>
@@ -233,10 +234,10 @@
       <screen x="-1440" y="0" width="1440" height="860" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1024.728/-1440.0.1440.860@-1440.0.1440.860" timestamp="1577986974737" />
-    <state x="311" y="147" key="com.intellij.ide.util.TipDialog" timestamp="1577901119710">
+    <state x="311" y="147" key="com.intellij.ide.util.TipDialog" timestamp="1578004147727">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="311" y="147" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1577901119710" />
+    <state x="311" y="147" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1578004147727" />
     <state x="92" y="92" width="1182" height="544" key="dock-window-1" timestamp="1577920388151">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

@@ -1,10 +1,10 @@
 import re
 
-from app import Password
-from app.requisitos import Requisitos
+from app.password.password import Password
+from app.requerimentos.requerimentos import Requerimentos
 
 
-class Aditivos(Requisitos):
+class Aditivos(Requerimentos):
     def __init__(self, password: Password):
         super().__init__(password)
 
@@ -15,8 +15,12 @@ class Aditivos(Requisitos):
         numeros = self.validar_numeros()
         simbolos = self.validar_simbolos()
         caracter = self.validar_numeros_e_simbolos_no_meio_do_password()
-        print(f'Tamanho de Caracteres: {tamanho["count"]} | {tamanho["value"]}')
-
+        print(f"{'Tamanho de Caracteres:':<28} {tamanho['count']} | {tamanho['value']}")
+        print(f"{'Validar letras maiúsculas:':<28} {maiusculas['count']} | {maiusculas['value']}")
+        print(f"{'Validar letras minúsculas:':<28} {minusculas['count']} | {minusculas['value']}")
+        print(f"{'Validar números:':<28} {numeros['count']} | {numeros['value']}")
+        print(f"{'Validar simbolos:':<28} {simbolos['count']} | {simbolos['value']}")
+        print(f"{'Validar números e simbolos:':<28} {caracter['count']} | {caracter['value']}")
 
     def validar(self):
         # numero de carcteres
@@ -151,10 +155,10 @@ class Aditivos(Requisitos):
             lista_caracter['value'] = 0
             return lista_caracter
 
-pas = Password('B#1l82@lp745')
-aditivos = Aditivos(pas)
-aditivos.validar()
-aditivos.mostrar_aditivos()
-print(aditivos.pontos)
-
-# print(aditivos.validar_numeros_caracteres())
+# pas = Password('B#1l82@lp745')
+# aditivos = Aditivos(pas)
+# # aditivos.validar()
+# # aditivos.mostrar_aditivos()
+# # print(aditivos.pontos)
+#
+# # print(aditivos.validar_numeros_caracteres())

@@ -1,7 +1,8 @@
-from app.password import Password
+from app.password.password import Password
 
 
-class Requisitos:
+
+class Requerimentos:
     def __init__(self, password: Password):
         self.password = password
         self.exigencia = 0

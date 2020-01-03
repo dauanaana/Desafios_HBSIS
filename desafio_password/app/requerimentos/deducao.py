@@ -1,13 +1,31 @@
 import re
 from string import ascii_letters as alpha
 
-from app.password import Password
-from app.requisitos import Requisitos
+from app.password.password import Password
+from app.requerimentos.requerimentos import Requerimentos
 
 
-class Deducoes(Requisitos):
+class Deducoes(Requerimentos):
     def __init__(self, password: Password):
         super().__init__(password)
+
+    def mostrar_deducoes(self):
+        letras = self.somente_letras()
+        numeros = self.somente_numeros()
+        maiusculas_cons = self.letras_maiusculas_consecutivas()
+        minuscula_cons = self.letras_minusculas_consecutivas()
+        numeros_cons = self.somente_numeros_consecutivos()
+        letras_seq = self.somente_letras_sequenciais()
+        numeros_seq = self.somente_numeros_sequenciais()
+        simbolos_seq = self.somente_simbolos_sequenciais()
+        print(f"{'Somente letras:':<28} {letras['count']} | {letras['value']}")
+        print(f"{'Somente números:':<28} {numeros['count']} | {numeros['value']}")
+        print(f"{'Maiúsculas consecutivas:':<28} {maiusculas_cons['count']} | {maiusculas_cons['value']}")
+        print(f"{'Minúsculas consecutivas:':<28} {minuscula_cons['count']} | {minuscula_cons['value']}")
+        print(f"{'Números consecutivos:':<28} {numeros_cons['count']} | {numeros_cons['value']}")
+        print(f"{'Letras sequenciais:':<28} {letras_seq['count']} | {letras_seq['value']}")
+        print(f"{'Números sequenciais:':<28} {numeros_seq['count']} | {numeros_seq['value']}")
+        print(f"{'Símbolos sequenciais:':<28} {simbolos_seq['count']} | {simbolos_seq['value']}")
 
     def validar(self):
         #somente letras
@@ -19,40 +37,39 @@ class Deducoes(Requisitos):
         self.pontos -= numeros['value']
 
         # somente letras maiusculas consecutivas
-        letras_mai_consecutivas = self.letras_maiusculas_cons()
-        self.pontos -= letras_mai_consecutivas['value']
+        maiusculas_cons = self.letras_maiusculas_consecutivas()
+        self.pontos -= maiusculas_cons['value']
 
         #somente letras minusculas consecutivas
-        letras_min_consecutivas = self.letras_minusculas_cons()
-        self.pontos -= letras_min_consecutivas['value']
+        minusculas_cons = self.letras_minusculas_consecutivas()
+        self.pontos -= minusculas_cons['value']
 
         #somente numneros consecutivos
-        numeros_consecutivos = self.somente_numeros_consecutivos()
-        self.pontos -= numeros_consecutivos['value']
+        numeros_cons = self.somente_numeros_consecutivos()
+        self.pontos -= numeros_cons['value']
 
         #somente letras sequenciais
-        letras_sequenciais = self.somente_letras_sequenciais()
-        self.pontos -= letras_sequenciais['value']
+        letras_seq = self.somente_letras_sequenciais()
+        self.pontos -= letras_seq['value']
 
         #somente numeros sequenciais
-        numeros_sequenciais = self.somente_numeros_sequenciais()
-        self.pontos -= numeros_sequenciais['value']
+        numeros_seq = self.somente_numeros_sequenciais()
+        self.pontos -= numeros_seq['value']
 
         #somente simbolos sequenciais
-        simbolos_sequenciais = self.somente_simbolos_sequenciais()
-        self.pontos -= simbolos_sequenciais['value']
+        simbolos_seq = self.somente_simbolos_sequenciais()
+        self.pontos -= simbolos_seq['value']
 
     def somente_letras(self):
         lista_somente_letras = {}
-        letras = re.findall('[a-zA-z]', self.password.password)
-        if len(letras) == len(self.password.password):
+        letras = len(re.findall('[a-zA-Z]', self.password.password()))
+        if letras == len(self.password.password()):
             lista_somente_letras['count'] = letras
             lista_somente_letras['value'] = letras
             return lista_somente_letras
         else:
             lista_somente_letras['count'] = 0
             lista_somente_letras['value'] = 0
-
             return lista_somente_letras
 
     def somente_numeros(self):
@@ -67,7 +84,7 @@ class Deducoes(Requisitos):
 
             return lista_somente_numeros
 
-    def letras_maiusculas_cons(self):
+    def letras_maiusculas_consecutivas(self):
         posicao_consecutiva = 0
         lista_consecutivas = {}
         password = self.password.password
@@ -87,7 +104,7 @@ class Deducoes(Requisitos):
             lista_consecutivas['value'] = 0
             return lista_consecutivas
 
-    def letras_minusculas_cons(self):
+    def letras_minusculas_consecutivas(self):
         posicao_consecutiva = 0
         lista_consecutivas = {}
         password = self.password.password
@@ -193,18 +210,11 @@ class Deducoes(Requisitos):
             lista_sequencial['value'] = 0
             return lista_sequencial
 
+pas = Password('B#1l82@lp745')
+deducoes = Deducoes(pas)
+print(deducoes.somente_numeros)
+# deducoes.mostrar_deducoes()
+# print(deducoes.pontos)
 
-# pas = Password('!@#$%')
-# ded = Deducoes(pas)
-# ded.validar()
-# print(ded.pontos)
-#print(ded.somente_letras())
-#pritn(ded.somente_numeros())
-#print(ded.letras_maiusculas_cons())
-#print(ded.letras_minusculas_cons())
-#print(ded.somente_numeros_consecutivos())
-#print(ded.somente_letras_sequenciais())
-#print(ded.somente_numeros_sequenciais())
-#print(ded.somente_simbolos_sequenciais())
 
 

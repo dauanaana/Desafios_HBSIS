@@ -1,4 +1,4 @@
-from app.frutas import Frutas
+from app.frutas.lista_frutas import Frutas
 from random import choice
 
 
@@ -12,9 +12,6 @@ class Forca(Frutas):
         self.erros = 0
         self.acertos = 0
         self.dicas = []
-
-    def sortear_fruta(self):
-        self.p_secreta = choice(self.frutas)
 
     def montar_dica(self):
         for i in range(len(self.p_secreta)):
@@ -43,7 +40,6 @@ class Forca(Frutas):
             if acerto == 0:
                 self.erros += 1
                 print(f'A palavra secreta não contém a letra: {chute}')
-
 
             if self.erros == 6:
                 self.enforcou = True

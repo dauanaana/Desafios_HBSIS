@@ -15,21 +15,15 @@ class Aditivos(Requerimentos):
         numeros = self.validar_numeros()
         simbolos = self.validar_simbolos()
         caracter = self.validar_numeros_e_simbolos_no_meio_do_password()
-<<<<<<< HEAD
         print(f"{'ADITIVOS ':^28}")
-=======
->>>>>>> 256db4358ed10c0dc5f12144ffa13427cbb06d8b
         print(f"{'Tamanho de Caracteres:':<28} {tamanho['count']} | {tamanho['value']}")
         print(f"{'Validar letras maiúsculas:':<28} {maiusculas['count']} | {maiusculas['value']}")
         print(f"{'Validar letras minúsculas:':<28} {minusculas['count']} | {minusculas['value']}")
         print(f"{'Validar números:':<28} {numeros['count']} | {numeros['value']}")
         print(f"{'Validar simbolos:':<28} {simbolos['count']} | {simbolos['value']}")
         print(f"{'Validar números e simbolos:':<28} {caracter['count']} | {caracter['value']}")
-<<<<<<< HEAD
         print(f"{'Exigencias:':<28} {self.exigencia} | {self.exigencia * 2}\n")
 
-=======
->>>>>>> 256db4358ed10c0dc5f12144ffa13427cbb06d8b
 
     def validar(self):
         # numero de carcteres
@@ -47,10 +41,6 @@ class Aditivos(Requerimentos):
         # numeros
         numeros = self.validar_numeros()
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 256db4358ed10c0dc5f12144ffa13427cbb06d8b
         # Exigencias
         if numeros['count'] > 0 and len(self.password.password) > numeros['count']:
             self.pontos += numeros['value']
@@ -72,14 +62,11 @@ class Aditivos(Requerimentos):
         self.pontos += caracter['value']
 
         # FINAL - Soma com as Exigências
-<<<<<<< HEAD
+
         if self.exigencia > 4:
             self.pontos += self.exigencia * 2
 
         return self.pontos
-=======
-        self.pontos += self.exigencia * 2
->>>>>>> 256db4358ed10c0dc5f12144ffa13427cbb06d8b
 
     def validar_numeros_caracteres(self):
         lista_senha = {}
@@ -174,8 +161,6 @@ class Aditivos(Requerimentos):
             lista_caracter['value'] = 0
             return lista_caracter
 
-<<<<<<< HEAD
-=======
 # pas = Password('B#1l82@lp745')
 # aditivos = Aditivos(pas)
 # # aditivos.validar()
@@ -183,4 +168,3 @@ class Aditivos(Requerimentos):
 # # print(aditivos.pontos)
 #
 # # print(aditivos.validar_numeros_caracteres())
->>>>>>> 256db4358ed10c0dc5f12144ffa13427cbb06d8b

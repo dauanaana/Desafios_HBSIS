@@ -3,6 +3,7 @@ from app.requerimentos.requerimentos import Requerimentos
 from app.requerimentos.aditivos import Aditivos
 from app.requerimentos.deducao import Deducoes
 
+
 def start():
    password = Password('Password')
    aditivos = Aditivos(password)

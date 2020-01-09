@@ -158,11 +158,12 @@ class TestDeducoes(unittest.TestCase):
 
     def test_verificar_se_nao_tiver_simbolos_sequenciais(self):
         pasw = Mock()
-        pasw.password = '183#942@@7n$jg%h'
+        pasw.password = '1839427njgh'
         ded = Deducoes(pasw)
         retorno = ded.somente_numeros_sequenciais()
         self.assertEqual(retorno['count'], 0)
         self.assertEqual(retorno['value'], 0)
+
 
 
 

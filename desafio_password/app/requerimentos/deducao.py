@@ -198,11 +198,8 @@ class Deducoes(Requerimentos):
         password = re.findall('\W', self.password.password)
         for posicao in range(len(password) - 1):
             if posicao != len(password):
-                try:
-                    if re.search('\W', password[posicao]) and re.search('\W', password[posicao + 1]):
-                        simbolo_sequencial += 1
-                except:
-                    continue
+                if re.search('\W', password[posicao]) and re.search('\W', password[posicao + 1]):
+                    simbolo_sequencial += 1
         if simbolo_sequencial >= 3:
             lista_sequencial['count'] = simbolo_sequencial
             lista_sequencial['value'] = simbolo_sequencial * 3

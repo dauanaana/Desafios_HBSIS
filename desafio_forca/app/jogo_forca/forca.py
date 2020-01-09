@@ -1,12 +1,20 @@
-from app.frutas.lista_frutas import Frutas
+from app.fruta.lista_frutas import ListaFrutas
 from random import choice
 
+#alterar print para return
+def _mostar(mostar):
+    print(mostar)
 
-class Forca(Frutas):
-    def __init__(self, frutas: list):
-        super().__init__(frutas)
-        self.chute = ''
-        self.p_secreta = ''
+
+def _input(param):
+    return input(param)
+
+
+class Forca:
+    def __init__(self, lista_frutas: ListaFrutas):
+        self.lista_frutas = lista_frutas
+        self.chute = str
+        self.p_secreta = object
         self.acertou = False
         self.enforcou = False
         self.erros = 0
@@ -14,41 +22,51 @@ class Forca(Frutas):
         self.dicas = []
 
     def montar_dica(self):
-        for i in range(len(self.p_secreta)):
+        for i in range(len(self.p_secreta.nome)):
             self.dicas.append('__')
-        print('Esse é o tamanho da palavra secreta: ')
+        _mostar('Esse é o tamanho da palavra secreta: ')
 
     def Jogar(self):
         self.montar_dica()
         while not self.enforcou and not self.acertou:
-            print(self.dicas)
-            chute = input('\nDigite uma letra: ')
-            if chute == self.p_secreta:
+            _mostar(self.dicas)
+            chute = _input('\nDigite uma letra: ')
+            if chute == self.p_secreta.nome:
                 self.acertou = True
-                print(self.dicas)
+                _mostar(self.p_secreta.nome)
                 break
+            self._tentativa(chute)
+            self._se_errou_enforcou()
+            self.se_ganhou()
 
-            posicao = 0
-            acerto = 0
-            for letra in self.p_secreta:
-                if chute.upper() == letra.upper():
-                    self.dicas[posicao] = letra.upper()
-                    self.acertos += 1
-                    acerto += 1
-                posicao += 1
+    def sortear_fruta(self):
+        self.p_secreta = choice(self.lista_frutas.lista)
 
-            if acerto == 0:
-                self.erros += 1
-                print(f'A palavra secreta não contém a letra: {chute}')
+    def _se_errou_enforcou(self):
+        if self.erros == 6:
+            self.enforcou = True
+            _mostar('VOCÊ PERDEU!!!')
 
-            if self.erros == 6:
-                self.enforcou = True
-                print('VOCÊ PERDEU!!!')
+    def _tentativa(self, chute):
+        posicao = 0
+        acerto = 0
+        for letra in self.p_secreta.nome:
+            if chute.upper() == letra.upper():
+                self.dicas[posicao] = letra.upper()
+                self.acertos += 1
+                acerto += 1
+            posicao += 1
 
-            if self.acertos == len(self.p_secreta):
-                self.acertou = True
-                print(f'PALAVRA SECRETA É {self.p_secreta}')
-                print('VOCÊ GANHOU')
+        if acerto == 0:
+            self.erros += 1
+            _mostar(f'A palavra secreta não contém a letra: {chute}')
+
+    def se_ganhou(self):
+        if self.acertos == len(self.p_secreta.nome):
+            self.acertou = True
+            _mostar(f'PALAVRA SECRETA É {self.p_secreta.nome}')
+            _mostar('VOCÊ GANHOU')
+
 
 
 

@@ -1,8 +1,9 @@
 from app.fruta.lista_frutas import ListaFrutas
+
 from random import choice
 
 #alterar print para return
-def _mostar(mostar):
+def _mostrar(mostar):
     print(mostar)
 
 
@@ -22,35 +23,42 @@ class Forca:
         self.dicas = []
 
     def montar_dica(self):
-        for i in range(len(self.p_secreta.nome)):
+        for i in range(len(self.p_secreta.get_nome())):
             self.dicas.append('__')
-        _mostar('Esse é o tamanho da palavra secreta: ')
+        _mostrar('Esse é o tamanho da palavra secreta: ')
+
+
+    def mostrar_titulo(self):
+        print('*' * 50)
+        print(f'{"JOGO DA FORCA" :^46}')
+        print('*' * 50)
 
     def Jogar(self):
+        self.mostrar_titulo()
         self.montar_dica()
         while not self.enforcou and not self.acertou:
-            _mostar(self.dicas)
+            _mostrar(self.dicas)
             chute = _input('\nDigite uma letra: ')
-            if chute == self.p_secreta.nome:
+            if chute == self.p_secreta.get_nome():
                 self.acertou = True
-                _mostar(self.p_secreta.nome)
+                _mostrar(self.p_secreta.get_nome())
                 break
             self._tentativa(chute)
             self._se_errou_enforcou()
             self.se_ganhou()
 
     def sortear_fruta(self):
-        self.p_secreta = choice(self.lista_frutas.lista)
+        self.p_secreta = choice(self.lista_frutas.get_lista())
 
     def _se_errou_enforcou(self):
         if self.erros == 6:
             self.enforcou = True
-            _mostar('VOCÊ PERDEU!!!')
+            _mostrar('VOCÊ PERDEU!!!')
 
     def _tentativa(self, chute):
         posicao = 0
         acerto = 0
-        for letra in self.p_secreta.nome:
+        for letra in self.p_secreta.get_nome():
             if chute.upper() == letra.upper():
                 self.dicas[posicao] = letra.upper()
                 self.acertos += 1
@@ -59,13 +67,13 @@ class Forca:
 
         if acerto == 0:
             self.erros += 1
-            _mostar(f'A palavra secreta não contém a letra: {chute}')
+            _mostrar(f'A palavra secreta não contém a letra: {chute}')
 
     def se_ganhou(self):
-        if self.acertos == len(self.p_secreta.nome):
+        if self.acertos == len(self.p_secreta.get_nome()):
             self.acertou = True
-            _mostar(f'PALAVRA SECRETA É {self.p_secreta.nome}')
-            _mostar('VOCÊ GANHOU')
+            _mostrar(f'PALAVRA SECRETA É {self.p_secreta.get_nome()}')
+            _mostrar('VOCÊ GANHOU')
 
 
 

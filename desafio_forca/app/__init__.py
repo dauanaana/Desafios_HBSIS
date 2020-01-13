@@ -1,12 +1,10 @@
 from app import fruta
+from app.fruta.fruta import Fruta
 from app.jogo_forca.forca import Forca
-from app.fruta.lista_frutas import Fruta, ListaFrutas
+from app.fruta.lista_frutas import ListaFrutas
 
 
 def start():
-    print('*' * 50)
-    print(f'{"JOGO DA FORCA" :^46}')
-    print('*' * 50)
     banana = Fruta('banana')
     jabuticaba = Fruta('jabuticaba')
     pitanga = Fruta('pitanga')

@@ -61,4 +61,20 @@ class BlackJack():
         print(f"Pontuação total: {self.score}")
 
 
+    @patch('app.deck.blackjack.BlackJack._calculate_score')
+    @patch('app.deck.deck.Deck.get_a_card')
+    @patch('app.deck.blackjack.print')
+    @patch('app.deck.blackjack.input')
+    def test_if_get_a_card_in_a_round_works(self, mock_input, mock_print, mock_deck_get_a_card, mock_calculate_score):
+        mock_card = Mock(name='A', value=10)
+        mock_deck_get_a_card.return_value = mock_card
+
+        mock_calculate_score.return_value = 10
+        blackjack = BlackJack()
+
+        result = blackjack._round()
+        self.assertEqual(result, blackjack._score)
+        self.assertTrue(mock_deck_get_a_card.called_once)
+        self.assertEqual(mock_calculate_score.call_count, 1)
+
 

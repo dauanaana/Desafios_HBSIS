@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5cd0b8e2-1f91-4745-abe9-ceff49700e1c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/blackjack.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/blackjack.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +29,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../exerccicio_frutas" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Desafio_Mastermind" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -120,10 +121,11 @@
     </state>
     <state x="-1100" y="132" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1024.728/-1440.0.1440.860@-1440.0.1440.860" timestamp="1577386709893" />
     <state x="242" y="112" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1024.728/-1440.0.1440.860@0.0.1024.728" timestamp="1577359374251" />
-    <state x="-940" y="186" key="FileChooserDialogImpl" timestamp="1577444858580">
-      <screen x="-1440" y="0" width="1440" height="860" />
+    <state x="444" y="147" key="FileChooserDialogImpl" timestamp="1578999876464">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="-940" y="186" key="FileChooserDialogImpl/0.0.1024.728/-1440.0.1440.860@-1440.0.1440.860" timestamp="1577444858580" />
+    <state x="444" y="147" key="FileChooserDialogImpl/0.0.1280.680/-1920.0.1536.824@0.0.1280.680" timestamp="1578999876464" />
     <state width="1419" height="176" key="GridCell.Tab.0.bottom" timestamp="1577444859619">
       <screen x="-1440" y="0" width="1440" height="860" />
     </state>

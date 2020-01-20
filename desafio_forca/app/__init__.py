@@ -15,7 +15,6 @@ def start():
 
     lista_frutas = ListaFrutas([banana, jabuticaba, pitanga, mirtilo, morango, abacaxi, cereja])
     forca = Forca(lista_frutas)
-    forca.sortear_fruta()
-    forca.Jogar()
+    forca.jogar_forca()
 
 

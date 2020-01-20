@@ -2,78 +2,77 @@ from app.fruta.lista_frutas import ListaFrutas
 
 from random import choice
 
-#alterar print para return
-def _mostrar(mostar):
-    print(mostar)
-
-
-def _input(param):
-    return input(param)
-
 
 class Forca:
     def __init__(self, lista_frutas: ListaFrutas):
         self.lista_frutas = lista_frutas
         self.chute = str
-        self.p_secreta = object
-        self.acertou = False
-        self.enforcou = False
-        self.erros = 0
-        self.acertos = 0
+        self.fruta_secreta = object
+        self.ganhou_jogo = False
+        self.perdeu_jogo = False
+        self.letras_incorretas = 0
+        self.letras_corretas = 0
         self.dicas = []
 
-    def montar_dica(self):
-        for i in range(len(self.p_secreta.get_nome())):
-            self.dicas.append('__')
-        _mostrar('Esse é o tamanho da palavra secreta: ')
-
+    def jogar_forca(self):
+        self.mostrar_titulo()
+        self.sortear_fruta()
+        self.montar_dica()
+        while not self.perdeu_jogo and not self.ganhou_jogo:
+            print(self.dicas)
+            self.digitar_algo()
+            self.tentativa()
+            self.se_chutou_uma_palavra()
+            self.acertou_todas_letras()
+            self.se_errou_enforcou()
 
     def mostrar_titulo(self):
         print('*' * 50)
         print(f'{"JOGO DA FORCA" :^46}')
         print('*' * 50)
 
-    def Jogar(self):
-        self.mostrar_titulo()
-        self.montar_dica()
-        while not self.enforcou and not self.acertou:
-            _mostrar(self.dicas)
-            chute = _input('\nDigite uma letra: ')
-            if chute == self.p_secreta.get_nome():
-                self.acertou = True
-                _mostrar(self.p_secreta.get_nome())
-                break
-            self._tentativa(chute)
-            self._se_errou_enforcou()
-            self.se_ganhou()
-
     def sortear_fruta(self):
-        self.p_secreta = choice(self.lista_frutas.get_lista())
+        self.fruta_secreta = choice(self.lista_frutas.get_lista())
 
-    def _se_errou_enforcou(self):
-        if self.erros == 6:
-            self.enforcou = True
-            _mostrar('VOCÊ PERDEU!!!')
+    def montar_dica(self):
+        for i in range(len(self.fruta_secreta.get_nome())):
+            self.dicas.append('__')
+        print('Esse é o tamanho da palavra secreta: ')
 
-    def _tentativa(self, chute):
+    def digitar_algo(self):
+        self.chute = input('\nDigite uma letra: ')
+
+    def tentativa(self):
         posicao = 0
         acerto = 0
-        for letra in self.p_secreta.get_nome():
-            if chute.upper() == letra.upper():
-                self.dicas[posicao] = letra.upper()
-                self.acertos += 1
+        for letra in self.fruta_secreta.get_nome():
+            if self.chute == letra:
+                self.dicas[posicao] = letra
+                self.letras_corretas += 1
                 acerto += 1
             posicao += 1
 
-        if acerto == 0:
-            self.erros += 1
-            _mostrar(f'A palavra secreta não contém a letra: {chute}')
+            if self.letras_incorretas != 0:
+                self.letras_incorretas += 1
+                print(f'A palavra secreta não contém a letra: {self.chute}')
 
-    def se_ganhou(self):
-        if self.acertos == len(self.p_secreta.get_nome()):
-            self.acertou = True
-            _mostrar(f'PALAVRA SECRETA É {self.p_secreta.get_nome()}')
-            _mostrar('VOCÊ GANHOU')
+    def acertou_todas_letras(self):
+        if self.letras_corretas == len(self.fruta_secreta.get_nome()):
+            self.ganhou_jogo = True
+            print(f'PALAVRA SECRETA É {self.fruta_secreta.get_nome()}\n'
+                  'VOCÊ GANHOU!!!')
+
+    def se_chutou_uma_palavra(self):
+        if self.chute == self.fruta_secreta.get_nome():
+            self.letras_corretas = self.fruta_secreta.get_nome()
+            self.ganhou_jogo = True
+            print(f'PALAVRA SECRETA É {self.fruta_secreta.get_nome()}\n'
+                  'VOCÊ GANHOU!!!')
+
+    def se_errou_enforcou(self):
+        if self.letras_incorretas == 6:
+            self.perdeu_jogo = True
+            print('VOCÊ PERDEU!!!')
 
 
 

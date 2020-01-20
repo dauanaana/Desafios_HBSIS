@@ -19,7 +19,7 @@ class MasterMind:
         self.title()
         self.raffle_colors()
         self.converted_random_colors_to_string()
-        # print(self.converted_random_colors)
+        print(self.converted_random_colors)
         while not self.won and not self.lost:
             self.play += 1
             self.four_color_password()
@@ -40,12 +40,12 @@ class MasterMind:
     def raffle_colors(self):  #raffle
         self.random_colors = [choice(self.colors_list.get_list()) for i in range(4)]
 
+    def converted_random_colors_to_string(self):
+        [self.converted_random_colors.append(c.get_name()) for c in self.random_colors]
+
     def four_color_password(self):  # 4 cores para senha
         for i in self.converted_random_colors:
             self.four_color.append(input("Tap one color: ").capitalize())
-
-    def converted_random_colors_to_string(self):
-        [self.converted_random_colors.append(c.get_name()) for c in self.random_colors]
 
     def round(self):
         contador = 0
@@ -59,7 +59,7 @@ class MasterMind:
     def attemps_game(self):
         for c in self.four_color:
             if c not in self.converted_random_colors:
-                print('Error: cor invalida')
+                print('Error: invalid color')
 
     def you_won(self):
         if self.four_color == self.converted_random_colors:
@@ -67,8 +67,8 @@ class MasterMind:
             print('YOU WON!!! :)')
 
     def you_lost(self):
-        if self.error == 20:
+        if self.error == 4:
             self.lost = True
-            print(f'YOU LOST!!! :(')
+            print('YOU LOST!!! :(')
 
 

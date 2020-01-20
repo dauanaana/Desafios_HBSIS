@@ -7,23 +7,17 @@ from app.colors.colors_list import ColorsList
 
 class TestMarterMind(unittest.TestCase):
 
-    ## game
+    # game
     @patch('app.mastermind.mastermind.choice')
     @patch('app.mastermind.mastermind.input')
     @patch('app.mastermind.mastermind.print')
     def test_if_mastermind_is_playing(self, mock_print, mock_input, mock_choice):
-        mock_input.side_effect = ['Red', 'Blue', 'Purple', 'Yellow',
-                                  'Purple', 'Yellow', 'Purple', 'Yellow',
-                                  'Purple', 'Yellow', 'Purple', 'Yellow',
-                                  ]
+        mock_input.side_effect = ['Red', 'Blue', 'Purple', 'Yellow']
+
         red = Mock()
         red.get_name.return_value = 'Red'
         blue = Mock()
         blue.get_name.return_value = 'Blue'
-        green = Mock()
-        green.get_name.return_value = 'Green'
-        orange = Mock()
-        orange.get_name.return_value = 'Orange'
         purple = Mock()
         purple.get_name.return_value = 'Purple'
         yellow = Mock()
@@ -32,7 +26,7 @@ class TestMarterMind(unittest.TestCase):
         mock_choice.side_effect = [red, blue, purple, yellow]
         color_list = Mock()
 
-        color_list.get_list.return_value = [red, blue, green, orange, purple, yellow]
+        color_list.get_list.return_value = [red, blue, purple, yellow]
         master = MasterMind(color_list)
 
         master.game()
@@ -102,7 +96,9 @@ class TestMarterMind(unittest.TestCase):
         master.converted_random_colors = ["Red", "Blue", "Yellow", "Red"]
         master.four_color = ["Red", "Yellow", "Red", "Pink"]
         master.attemps_game()
-        assert mock_print.call_args_list != [call('Black'), call('White'), call('White'), call('Error: cor invalida')]
+        # print(mock_print.call_args_list)
+        self.assertTrue(mock_print.called)
+        self.assertEqual(mock_print.call_args_list, [call('Error: invalid color')])
 
     ## you_won
     @patch('app.mastermind.mastermind.print')
@@ -117,7 +113,7 @@ class TestMarterMind(unittest.TestCase):
     @patch('app.mastermind.mastermind.print')
     def test_if_really_missed(self, mock_print):
         master = MasterMind(Mock())
-        master.error = 20
+        master.error = 4
         master.you_lost()
         mock_print.assert_called_once_with('YOU LOST!!! :(')
 

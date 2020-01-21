@@ -112,15 +112,14 @@ class TestForca(unittest.TestCase):
     @patch('app.jogo_forca.forca.print')
     def test_se_acertou_todas_as_letras_e_ganhou(self, mock_print, mock_input):
         with patch('app.jogo_forca.forca.print'):
-            mock_input.side_effect = ['b', 'a', 'n', 'a', 'n', 'a']
+            mock_input.side_effect = ['b', 'a', 'n']
             lista_frutas = Mock()
             jogo = Forca(lista_frutas)
             jogo.fruta_secreta = Mock()
             jogo.fruta_secreta.get_nome.return_value = 'banana'
-            jogo.dicas = ['__', '__', '__', '__', '__', '__' ]
-            jogo.letras_corretas = 6
-            jogo.ganhou_se_acertou_todas_as_letras()
-            self.assertEqual(len(jogo.fruta_secreta.get_nome()), 6)
+            # jogo.letras_corretas = 6
+            met = jogo.ganhou_se_acertou_todas_as_letras()
+            assert mock_print(met)
 
     # ganhou_se_acertou_chutando uma palavra
     @patch('app.jogo_forca.forca.input')
@@ -132,10 +131,10 @@ class TestForca(unittest.TestCase):
             jogo = Forca(lista_frutas)
             jogo.fruta_secreta = Mock()
             jogo.fruta_secreta.get_nome.return_value = 'banana'
-            jogo.dicas = ['__', '__', '__', '__', '__', '__']
             jogo.chute = 'banana'
-            jogo.ganhou_se_chutou_uma_palavra()
-            self.assertEqual(jogo.fruta_secreta.get_nome(), 'banana')
+            met = jogo.ganhou_se_chutou_uma_palavra()
+            assert mock_print(met)
+
 
     #se_errou_enforcou
     @patch('app.jogo_forca.forca.print')

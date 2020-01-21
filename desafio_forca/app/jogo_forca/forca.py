@@ -66,6 +66,7 @@ class Forca:
             self.ganhou_jogo = True
             print(f'PALAVRA SECRETA É {self.fruta_secreta.get_nome()}\n'
                   'VOCÊ GANHOU!!!')
+        return self.chute
 
     def ganhou_se_chutou_uma_palavra(self):
         if self.chute == self.fruta_secreta.get_nome():
@@ -73,11 +74,13 @@ class Forca:
             self.ganhou_jogo = True
             print(f'PALAVRA SECRETA É {self.fruta_secreta.get_nome()}\n'
                   'VOCÊ GANHOU!!!')
+        return self.chute
 
     def se_errou_enforcou(self):
         if self.letras_incorretas == 6:
             self.perdeu_jogo = True
             print('VOCÊ PERDEU!!!')
+
 
 
 
